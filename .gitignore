@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+
+# ChromaDB — persisted vector store (rebuild with python vector.py)
+chroma_store/
+
+# Source documents — add your own files to data/ and list them in datafiles.txt
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
