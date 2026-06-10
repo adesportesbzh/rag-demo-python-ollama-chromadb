@@ -161,13 +161,16 @@ Exposes a REST API and serves the chat UI:
 
 ## Web UI
 
-> 📸 *Screenshots coming soon*
-
-<!-- Add screenshots here -->
-<!-- ![Chat UI](docs/screenshot-chat.png) -->
-<!-- ![Example answer from pizza reviews](docs/screenshot-answer.png) -->
-
 The frontend is a minimal single-page chat interface (`index.html` + `index.js` + `index.css`) with no framework dependencies. It sends questions to the Flask API and displays responses. A "Thinking…" indicator is shown while the LLM processes the request.
+
+Since we ingested a CSV file about a pizza restaurant reviews, we can ask a few questions
+
+<img width="1055" height="705" alt="web-ui" src="https://github.com/user-attachments/assets/d284dde7-ed91-4107-8cf7-b454a55ce552" />
+
+You can see that our server receives the query and returns a result coming from our CSV file.
+
+<img width="1479" height="430" alt="terminal-logs" src="https://github.com/user-attachments/assets/353dfcc9-6272-440e-b785-be1d51cf9f27" />
+
 
 ---
 
